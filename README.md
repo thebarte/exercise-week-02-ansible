@@ -1,1 +1,1 @@
-# excersie-01
+# exercise-01
