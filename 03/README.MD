@@ -19,7 +19,7 @@
 * Once you have install aws cli you can edit your profile manually using vscode or notepad
 * credential file is located in a hidden folder ```~/.aws/credentials```
 
-````
+```
 [default]
 aws_access_key_id = ASIASD5C6ZVXTDCYIM5P
 aws_secret_access_key = OLDok4bHy3EyukxhFsLxspCEitLkDvCuIJJuXvUx
@@ -27,6 +27,7 @@ aws_session_token = FwoGZXIvYXdzEOb//////////wEaDDFC7xYeqC8cDKV6UCK9AZp7anDBoqBy
 ```
 
 ### Example on how to set your variables using Windows PowerShell
+
 ```
 $env:aws_access_key_id += "ASIASD5C6ZVXTDCYIM5P"
 $env:aws_secret_access_key += "OLDok4bHy3EyukxhFsLxspCEitLkDvCuIJJuXvUx"
