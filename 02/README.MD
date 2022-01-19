@@ -24,7 +24,7 @@ CONTAINER ID   IMAGE     COMMAND       CREATED          STATUS          PORTS   
 ### Copy the Ansible Playbook to the container
 1. Execute the following command. Note: Replace brave_bhabha with your names
 ```
-docker cp .\helloworld.yml brave_bhabha:/work
+docker cp .\playbook.yml brave_bhabha:/work
 ```
 2. This will copy your playbook to your docker container.
 
@@ -32,7 +32,7 @@ docker cp .\helloworld.yml brave_bhabha:/work
 Switch back to your ansible docker terminal you opened at the begining
 1. If you do an ```ls``` you will see the file
 2. Execute the ansible-playbook to make sure things work
-``` ansible-playbook helloworld.yml ```
+``` ansible-playbook playbook.yml ```
 
 
 

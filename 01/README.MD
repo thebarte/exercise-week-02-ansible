@@ -10,8 +10,8 @@
 1. Create a directory in which to test and run the sample code and make it the current directory.
 2. Create a new file named Dockerfile.
 3. Insert the following Docker commands into the new file.
-4. Note edit ``` git config --global user.name "<insert your name>"; \```
-5. Note edit ``` git config --global user.email "<insert your email>"; \```
+4. Note edit ``` git config --global user.name "<insert your name>"```
+5. Note edit ``` git config --global user.email "<insert your email>"```
 
 ```
 FROM centos:7
