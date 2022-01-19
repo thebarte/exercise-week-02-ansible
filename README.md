@@ -1,7 +1,7 @@
 # Week 2 - Ansible
 
 ## Resources:
-* How to install ansibleh ttps://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
+* How to install ansible https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
 * Ubuntu Install Command: ```sudo apt-get install ansible```
 * How to install Brew (MAC) 
 * Run ansible as a Docker (In Windows)
