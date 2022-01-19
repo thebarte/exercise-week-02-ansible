@@ -11,7 +11,7 @@
 5. Get the details for VSCode > click on AWS Details
 6. ![image3](image3.png)
 7. Download and install AWS CLI https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html 
-8. Configure AWS ```aws configure ```
+8. Configure AWS ```aws configure ``` add your 
 9. Edit your aws profile to add the "aws_session_token" 
 
 
