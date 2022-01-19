@@ -22,4 +22,14 @@ RUN pip3 install --upgrade pip; \
     ansible-galaxy collection install juniper.device; \
     ansible-galaxy collection install f5networks.f5_modules; \
     git config --global user.name "Sebbycorp"; \
-    git config --global user.email "sebastian@maniak.io"; \
+    git config --global user.email "sebastian@maniak.io";
+
+WORKDIR /work
+
+ENV ANSIBLE_GATHERING smart
+ENV ANSIBLE_HOST_KEY_CHECKING false
+ENV ANSIBLE_RETRY_FILES_ENABLED false
+ENV ANSIBLE_ROLES_PATH /ansible/playbooks/roles
+ENV ANSIBLE_SSH_PIPELINING True
+ENV PATH /ansible/bin:$PATH
+ENV PYTHONPATH /ansible/lib

@@ -13,3 +13,7 @@
 * Install Docker https://docs.docker.com/get-docker/ on windows or mac and run Ansible from a Docker
 
  
+## Fork the repo
+1. Fork the following repo to your own github account https://github.com/TELE36058-Software-Defined-Networks/exercise-01-week-02-ansible.git
+2. Clone this repo to your local computer using git and Visual Code
+
