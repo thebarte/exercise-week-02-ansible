@@ -6,6 +6,7 @@
 * How to install Brew (MAC) 
 * Run ansible as a Docker (In Windows)
 * Docker for dummies https://medium.com/@SaadAAkash/docker-for-dummies-literally-ab3fc6362d5f
+* Install ansible on Ubunut  ``` sudo apt-add-repository ppa:ansible/ansible ``` than ``` sudo apt-get install ansible```
 
 ## How to Setup Ansible on your machine/lab options
 * Deploy a linux distribution in VMware workstation/Virtual Box and install ansible 
@@ -16,4 +17,5 @@
 ## Fork the repo
 1. Fork the following repo to your own github account https://github.com/TELE36058-Software-Defined-Networks/exercise-01-week-02-ansible.git
 2. Clone this repo to your local computer using git and Visual Code
+
 
